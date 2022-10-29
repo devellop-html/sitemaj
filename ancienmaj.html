@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./popup.css">
+  <script src="./popup.js" defer></script>
+  <title>Centre de téléchargement d'ancienne màj de l'app Chat_app</title>
+</head>
+
+<body>
+
+    <h1>Mise à jour 1.0</h1>
+    <h2>Cliquez sur un bouton pour voir les nouveautées et màj des versions</h2>
+
+  <button data-popup-ref="monPopupancienmaj">Voir les nouveautées et correction de cette version</button>
+
+  <div class="popup" data-popup-id="monPopupancienmaj">
+    <div class="popup-content">
+      <div class="popup-header">
+        <div class="title">Nouveautées et correction de cette version</div>
+        <span class="btn-close" data-dismiss-popup> &times; </span>
+      </div>
+      <div class="popup-body">
+        <h1>---Aucune nouveautées-----</h1>
+        
+          <a href="app-release.apk"
+          download="app-release.apk">Télécharger la version</a>
+        </p>
+      </div>
+      <div class="popup-footer">
+        <button><a href="app-release.apk">Télécharger la mise à jour</a></button>
+        <button class="btn-close" data-dismiss-popup>Fermer</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
