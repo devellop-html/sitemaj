@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./popup.css">
+  <script src="./popup.js" defer></script>
+  <title>Centre de mise à jour de l'app Chat_app</title>
+</head>
+
+<body>
+
+    <h1>Mise à jour 2.0</h1>
+    <p>Vous voulez télécharger une ancienne mise à jour<a href="ancienmaj.html">Ouvrir la page</a></p>
+
+  <button data-popup-ref="monPopup">Voir les nouveautées et correction et télécharger la version</button>
+
+  <div class="popup" data-popup-id="monPopup">
+    <div class="popup-content">
+      <div class="popup-header">
+        <div class="title">Nouveautées et correction de cette version</div>
+        <span class="btn-close" data-dismiss-popup> &times; </span>
+      </div>
+      <div class="popup-body">
+        <h1>Fini les mises à jour difficiles !</h1>
+        <p>
+          Maintenant il suffit de cliquer qur l'icone à droite de votre photo de profil pour vérifier si une mise à jour est disponible
+          <a href="app-release.apk"
+          download="app-release.apk">Télécharger la màj</a>
+        </p>
+      </div>
+      <div class="popup-footer">
+        <button><a href="app-release.apk">Télécharger la mise à jour</a></button>
+        <button class="btn-close" data-dismiss-popup>Fermer</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+    
